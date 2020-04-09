@@ -63,8 +63,6 @@ class DataBase {
         messages
             .sort(function (a, b) {
                 return a.id - b.id;
-            }).sort(function (a, b) {
-                return a.timestamps - b.timestamps;
             })
         return messages;
     }
