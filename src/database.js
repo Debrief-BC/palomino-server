@@ -36,7 +36,7 @@ class DataBase {
                 from: from,
                 to: to,
                 timestamps: {
-                    [Op.gte]: lastTime
+                    [Op.gt]: lastTime
                 }
             },
             raw: true
