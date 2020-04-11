@@ -1,23 +1,23 @@
 {
-  "name": "athena-server",
+  "name": "palomino-server",
   "version": "0.0.1",
-  "description": "a server for athena",
+  "description": "a server for palomino",
   "main": "src/app.js",
   "scripts": {
-    "start": "pm2 start src/app.js --name athena-server",
-    "restart": "pm2 restart athena-server",
-    "stop": "pm2 stop athena-server"
+    "start": "pm2 start src/app.js --name palomino-server",
+    "restart": "pm2 restart palomino-server",
+    "stop": "pm2 stop palomino-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Debrief-BC/athena-server.git"
+    "url": "git+https://github.com/Debrief-BC/palomino-server.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Debrief-BC/athena-server/issues"
+    "url": "https://github.com/Debrief-BC/palomino-server/issues"
   },
-  "homepage": "https://github.com/Debrief-BC/athena-server#readme",
+  "homepage": "https://github.com/Debrief-BC/palomino-server#readme",
   "dependencies": {
     "crypto-random-string": "^3.2.0",
     "express": "^4.17.1",
