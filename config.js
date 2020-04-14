@@ -11,7 +11,7 @@ var config = {
     },
     blockchain: {
         providerType: "http",
-        providerPath: "http://34.229.57.51:10101"
+        providerPath: "http://127.0.0.1:20101"
     },
     server: {
         port: 8080,
